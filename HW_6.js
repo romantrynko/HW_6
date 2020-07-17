@@ -70,4 +70,46 @@
 
 
 
+// 10 - создать массив со словами на 15-20 элементов.
+
+let wordsArray = ['Hello', 'my', 'name', 'is', 'Roman', 'i', 'live', 'and', 'work', 'in', 'Lviv', 'this', 'is', 'my', 'favourite', 'city', 'of', 'Ukraine'];
+
+// 11 -- отсортировать его по алфавиту в восходящем порядке.
+
+// let sortedWords = wordsArray.sort((a, b) => (a.toLowerCase() < b.toLowerCase()) ? -1 : 1)
+
+// console.log(sortedWords);
+
+
+
+// 12 -- отсортировать его по алфавиту  в нисходящем порядке.
+
+
+
+let sortedWords = wordsArray.sort((a, b) => a.toLowerCase() > b.toLowerCase() ? -1 : 1)
+
+console.log(sortedWords);
+
+
+
+// 13 -- отфильтровать слова длиной менее 4х символов
+
+let filterLessFour = wordsArray.filter((word) => word.length < 3 ? word : '')
+
+console.log(filterLessFour);
+
+
+
+// 14 -- перебрать массив при помощи map() и получить новый массив 
+//         в котором все значения будут со знаком "!" в конце
+
+let newArray = wordsArray.map((element) => {
+    return element + '!'
+})
+
+console.log(newArray);
+
+
+
+// 16 Все робити через функції масивів (foreach, map ...тд)
 
