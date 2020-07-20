@@ -60,7 +60,7 @@
 
 // 10 - создать массив со словами на 15-20 элементов.
 
-let wordsArray = ['Hello', 'my', 'name', 'is', 'Roman', 'i', 'live', 'and', 'work', 'in', 'Lviv', 'this', 'is', 'my', 'favourite', 'city', 'of', 'Ukraine'];
+// let wordsArray = ['Hello', 'my', 'name', 'is', 'Roman', 'i', 'live', 'and', 'work', 'in', 'Lviv', 'this', 'is', 'my', 'favourite', 'city', 'of', 'Ukraine'];
 
 // 11 -- отсортировать его по алфавиту в восходящем порядке.
 
@@ -180,214 +180,214 @@ let wordsArray = ['Hello', 'my', 'name', 'is', 'Roman', 'i', 'live', 'and', 'wor
 
 // 37
 
-let cars = [
-    {
-        producer: "subaru",
-        model: "wrx",
-        year: 2010,
-        color: "blue",
-        type: "sedan",
-        engine: "ej204x",
-        volume: 2,
-        power: 400
-    },
-    {
-        producer: "subaru",
-        model: "legacy",
-        year: 2007,
-        color: "silver",
-        type: "sedan",
-        engine: "ez30",
-        volume: 3,
-        power: 250
-    },
-    {
-        producer: "subaru",
-        model: "tribeca",
-        year: 2011, color: "white",
-        type: "jeep",
-        engine: "ej20",
-        volume: 2,
-        power: 300
-    },
-    {
-        producer: "subaru",
-        model: "leone",
-        year: 1998,
-        color: "yellow",
-        type: "sedan",
-        engine: "ez20x", 
-        volume: 2, 
-        power: 140
-    },
-    {
-        producer: "subaru", 
-        model: "impreza", 
-        year: 2014, color: "red", 
-        type: "sedan", 
-        engine: "ej204x", 
-        volume: 2, 
-        power: 200
-    },
-    {
-        producer: "subaru", 
-        model: "outback", 
-        year: 2014, 
-        color: "red", 
-        type: "hachback", 
-        engine: "ej204", 
-        volume: 2, 
-        power: 165
-    },
-    {
-        producer: "bmw", 
-        model: "115", 
-        year: 2013, 
-        color: "red", 
-        type: "hachback", 
-        engine: "f15", 
-        volume: 1.5, 
-        power: 120
-    },
-    {
-        producer: "bmw", 
-        model: "315", 
-        year: 2010, 
-        color: "white", 
-        type: "sedan", 
-        engine: "f15", 
-        volume: 1.5, 
-        power: 120
-    },
-    {
-        producer: "bmw", 
-        model: "650", 
-        year: 2009, 
-        color: "black", 
-        type: "coupe", 
-        engine: "f60", 
-        volume: 6, 
-        power: 350
-    },
-    {
-        producer: "bmw", 
-        model: "320", 
-        year: 2012, 
-        color: "red", 
-        type: "sedan", 
-        engine: "f20", 
-        volume: 2, 
-        power: 180
-    },
-    {
-        producer: "mercedes", 
-        model: "e200", 
-        year: 1990, 
-        color: "silver", 
-        type: "sedan", 
-        engine: "eng200", 
-        volume: 2, 
-        power: 180
-    },
-    {
-        producer: "mercedes", 
-        model: "e63", 
-        year: 2017, 
-        color: "yellow", 
-        type: "sedan", 
-        engine: "amg63", 
-        volume: 3, 
-        power: 400
-    },
-    {
-        producer: "mercedes", 
-        model: "c250", 
-        year: 2017, 
-        color: "red", 
-        type: "sedan", 
-        engine: "eng25", 
-        volume: 2.5, 
-        power: 230
-    }
-];
+// let cars = [
+//     {
+//         producer: "subaru",
+//         model: "wrx",
+//         year: 2010,
+//         color: "blue",
+//         type: "sedan",
+//         engine: "ej204x",
+//         volume: 2,
+//         power: 400
+//     },
+//     {
+//         producer: "subaru",
+//         model: "legacy",
+//         year: 2007,
+//         color: "silver",
+//         type: "sedan",
+//         engine: "ez30",
+//         volume: 3,
+//         power: 250
+//     },
+//     {
+//         producer: "subaru",
+//         model: "tribeca",
+//         year: 2011, color: "white",
+//         type: "jeep",
+//         engine: "ej20",
+//         volume: 2,
+//         power: 300
+//     },
+//     {
+//         producer: "subaru",
+//         model: "leone",
+//         year: 1998,
+//         color: "yellow",
+//         type: "sedan",
+//         engine: "ez20x", 
+//         volume: 2, 
+//         power: 140
+//     },
+//     {
+//         producer: "subaru", 
+//         model: "impreza", 
+//         year: 2014, color: "red", 
+//         type: "sedan", 
+//         engine: "ej204x", 
+//         volume: 2, 
+//         power: 200
+//     },
+//     {
+//         producer: "subaru", 
+//         model: "outback", 
+//         year: 2014, 
+//         color: "red", 
+//         type: "hachback", 
+//         engine: "ej204", 
+//         volume: 2, 
+//         power: 165
+//     },
+//     {
+//         producer: "bmw", 
+//         model: "115", 
+//         year: 2013, 
+//         color: "red", 
+//         type: "hachback", 
+//         engine: "f15", 
+//         volume: 1.5, 
+//         power: 120
+//     },
+//     {
+//         producer: "bmw", 
+//         model: "315", 
+//         year: 2010, 
+//         color: "white", 
+//         type: "sedan", 
+//         engine: "f15", 
+//         volume: 1.5, 
+//         power: 120
+//     },
+//     {
+//         producer: "bmw", 
+//         model: "650", 
+//         year: 2009, 
+//         color: "black", 
+//         type: "coupe", 
+//         engine: "f60", 
+//         volume: 6, 
+//         power: 350
+//     },
+//     {
+//         producer: "bmw", 
+//         model: "320", 
+//         year: 2012, 
+//         color: "red", 
+//         type: "sedan", 
+//         engine: "f20", 
+//         volume: 2, 
+//         power: 180
+//     },
+//     {
+//         producer: "mercedes", 
+//         model: "e200", 
+//         year: 1990, 
+//         color: "silver", 
+//         type: "sedan", 
+//         engine: "eng200", 
+//         volume: 2, 
+//         power: 180
+//     },
+//     {
+//         producer: "mercedes", 
+//         model: "e63", 
+//         year: 2017, 
+//         color: "yellow", 
+//         type: "sedan", 
+//         engine: "amg63", 
+//         volume: 3, 
+//         power: 400
+//     },
+//     {
+//         producer: "mercedes", 
+//         model: "c250", 
+//         year: 2017, 
+//         color: "red", 
+//         type: "sedan", 
+//         engine: "eng25", 
+//         volume: 2.5, 
+//         power: 230
+//     }
+// ];
 
 // Відфільтрувати масив за наступними критеріями :
 // - двигун більше 3х літрів
 
-let engineLessThreeLit = cars.filter(car => car.volume > 3);
-console.log(engineLessThreeLit);
+// let engineLessThreeLit = cars.filter(car => car.volume > 3);
+// console.log(engineLessThreeLit);
 
 // - двигун = 2л
 
-let engineTwoLit = cars.filter(car => car.volume === 2);
-console.log(engineTwoLit);
+// let engineTwoLit = cars.filter(car => car.volume === 2);
+// console.log(engineTwoLit);
 
 // - виробник мерс
 
-let producerMerc = cars.filter(car => car.producer === 'mercedes');
-console.log(producerMerc);
+// let producerMerc = cars.filter(car => car.producer === 'mercedes');
+// console.log(producerMerc);
 
 // - двигун більше 3х літрів + виробник мерседес
 
-let engMoreThreeProdMerc = cars.filter(car => car.volume > 3 && car.producer === 'mercedes')
-console.log(engMoreThreeProdMerc);
+// let engMoreThreeProdMerc = cars.filter(car => car.volume > 3 && car.producer === 'mercedes')
+// console.log(engMoreThreeProdMerc);
 
 // - двигун більше 3х літрів + виробник субару
 
-let engMoreThreeProdSub = cars.filter(car => car.volume > 3 && car.producer === 'subaru')
-console.log(engMoreThreeProdSub);
+// let engMoreThreeProdSub = cars.filter(car => car.volume > 3 && car.producer === 'subaru')
+// console.log(engMoreThreeProdSub);
 
 // - сили більше ніж 300
 
-let threeHundredHP = cars.filter(car => car.power > 300);
-console.log(threeHundredHP);
+// let threeHundredHP = cars.filter(car => car.power > 300);
+// console.log(threeHundredHP);
 
 // - сили більше ніж 300 + виробник субару
 
-let threeHPProdSub = cars.filter(car => car.power > 300 && car.producer === 'subaru');
-console.log(threeHPProdSub);
+// let threeHPProdSub = cars.filter(car => car.power > 300 && car.producer === 'subaru');
+// console.log(threeHPProdSub);
 
 // - мотор серіі ej
 
-let engEj = cars.filter(car => car.engine.toLowerCase().startsWith('ej'));
-console.log(engEj);
+// let engEj = cars.filter(car => car.engine.toLowerCase().startsWith('ej'));
+// console.log(engEj);
 
 // - сили більше ніж 300 + виробник субару + мотор серіі ej
 
-let powerProdEng = cars.filter(car => car.power > 300 && car.producer === 'subaru' && car.engine.startsWith('ej'));
-console.log(powerProdEng);
+// let powerProdEng = cars.filter(car => car.power > 300 && car.producer === 'subaru' && car.engine.startsWith('ej'));
+// console.log(powerProdEng);
 
 // - двигун меньше 3х літрів + виробник мерседес
 
-let engLessTwoMerc = cars.filter(car => car.volume < 3 && car.producer ==='mercedes');
-console.log(engLessTwoMerc);
+// let engLessTwoMerc = cars.filter(car => car.volume < 3 && car.producer ==='mercedes');
+// console.log(engLessTwoMerc);
 
 // - двигун більше 2л + сили більше 250
 
-let engTwoPower = cars.filter(car => car.volume > 2 && car.power > 250);
-console.log(engTwoPower); 
+// let engTwoPower = cars.filter(car => car.volume > 2 && car.power > 250);
+// console.log(engTwoPower); 
 
 // - сили більше 250  + виробник бмв
 
-let powerBmw = cars.filter(car => car.power > 250 && car.producer === 'bmw');
-console.log(powerBmw);
+// let powerBmw = cars.filter(car => car.power > 250 && car.producer === 'bmw');
+// console.log(powerBmw);
 
 
 
 // - взять слдующий массив
-let usersWithAddress = [
-    {id: 1, name: 'vasya', age: 31, status: false, address: {city: 'Lviv', street: 'Shevchenko', number: 16}}, 
-    {id: 2, name: 'petya', age: 30, status: true, address: {city: 'Lviv', street: 'Naukova', number: 1}}, 
-    {id: 3, name: 'kolya', age: 29, status: true, address: {city: 'Lviv', street: 'Lubinska', number: 121}}, 
-    {id: 4, name: 'olya', age: 28, status: false, address: {city: 'Lviv', street: 'Kulisha', number: 90}}, 
-    {id: 5, name: 'max', age: 30, status: true, address: {city: 'Lviv', street: 'Bandery', number: 115}}, 
-    {id: 6, name: 'anya', age: 31, status: false, address: {city: 'Lviv', street: 'Levandivska', number: 2}}, 
-    {id: 7, name: 'oleg', age: 28, status: false, address: {city: 'Lviv', street: 'Gorodotska', number: 22}}, 
-    {id: 8, name: 'andrey', age: 29, status: true, address: {city: 'Lviv', street: 'Ruska', number: 43}}, 
-    {id: 9, name: 'masha', age: 30, status: true, address: {city: 'Lviv', street: 'Sakharova', number: 12}}, 
-    {id: 10, name: 'olya', age: 31, status: false, address: {city: 'Lviv', street: 'Zelena', number: 16}}, 
-    {id: 11, name: 'max', age: 31, status: true, address: {city: 'Lviv', street: 'Antonovycha', number: 121}}
-];
+// let usersWithAddress = [
+//     {id: 1, name: 'vasya', age: 31, status: false, address: {city: 'Lviv', street: 'Shevchenko', number: 16}}, 
+//     {id: 2, name: 'petya', age: 30, status: true, address: {city: 'Lviv', street: 'Naukova', number: 1}}, 
+//     {id: 3, name: 'kolya', age: 29, status: true, address: {city: 'Lviv', street: 'Lubinska', number: 121}}, 
+//     {id: 4, name: 'olya', age: 28, status: false, address: {city: 'Lviv', street: 'Kulisha', number: 90}}, 
+//     {id: 5, name: 'max', age: 30, status: true, address: {city: 'Lviv', street: 'Bandery', number: 115}}, 
+//     {id: 6, name: 'anya', age: 31, status: false, address: {city: 'Lviv', street: 'Levandivska', number: 2}}, 
+//     {id: 7, name: 'oleg', age: 28, status: false, address: {city: 'Lviv', street: 'Gorodotska', number: 22}}, 
+//     {id: 8, name: 'andrey', age: 29, status: true, address: {city: 'Lviv', street: 'Ruska', number: 43}}, 
+//     {id: 9, name: 'masha', age: 30, status: true, address: {city: 'Lviv', street: 'Sakharova', number: 12}}, 
+//     {id: 10, name: 'olya', age: 31, status: false, address: {city: 'Lviv', street: 'Zelena', number: 16}}, 
+//     {id: 11, name: 'max', age: 31, status: true, address: {city: 'Lviv', street: 'Antonovycha', number: 121}}
+// ];
 
 // -- отсортировать его по id пользователей
 
@@ -448,3 +448,64 @@ let usersWithAddress = [
 
 // let buildFiltered = usersWithAddress.filter(user => !(user.address.number % 2));
 // console.log(buildFiltered);
+
+
+
+// ===========================
+// ======ДОПОЛНИТЕЛЬНО========
+// ===========================
+
+// Створити обєкт автомобіля з полями:
+// Марка автомобля, потужність двигуна, власник, ціна, рік випуску.
+
+// Власник автомобіля теж має бути обєкт, у якого є поля
+// Імя, вік, стаж водіння.
+
+// Створити не менше 7 та не більше 20 машинок.
+
+let cars = [
+    { model: 'Honda', power: 185, price: 14000, year: 2014, owner: {name: 'Roman', age: 31, exp: 14} },
+    { model: 'Toyota', power: 277, price: 25000, year: 2016, owner: {name: 'Oleg', age: 60, exp: 42} },
+    { model: 'Opel', power: 147, price: 7000, year: 2008, owner: {name: 'Nazar', age: 27, exp: 10} },
+    { model: 'BMW', power: 230, price: 33000, year: 2015, owner: {name: 'Kiril', age: 26, exp: 2} },
+    { model: 'Audi', power: 230, price: 18000, year: 2013, owner: {name: 'Igor', age: 45, exp: 27} },
+    { model: 'Lexus', power: 280, price: 17000, year: 2011, owner: {name: 'Viktor', age: 27, exp: 4} },
+    { model: 'Fiat', power: 160, price: 8000, year: 2015, owner: {name: 'Ostap', age: 30, exp: 12} },
+    { model: 'Volkswagen', power: 125, price: 6000, year: 2000, owner: {name: 'Lida', age: 35, exp: 3} },
+]
+
+// Зробили половину автопарку ремонт мотору, 
+// що збільшить потужність автомобілів на 10% (переприсвоєння змінної потужності).
+
+// На відремонтовані автомобілі найняти нових водіїв (переприсвоїти змінну водій).
+let newDriver = {name: 'Taras', age: 35, exp: 4}
+
+// Для початку вкладіть всі наші створені автомобілі в масив cars.
+
+// Далі необхідно брати кожну другу машинку (цикл з кроком в 2), 
+// та робити їй підвищення потужності двигуна на 10% та ціну на 5%
+let repairedCars = cars.forEach((car, index) => {
+    if (index % 2) {
+        car.power = car.power * 1.1;
+        car.price = car.price * 1.05;
+        car.owner = newDriver;
+    }
+})
+        
+console.log(cars);
+
+// Після того зробити перевірку досвіду ВСІХ наших водіїв. 
+// Якщо досвід водія менший за 5 років, але його вік більший за 25, 
+// о необідно відправити його на курси підвищення кваліфікації, що збільшить йому досвід на 1 рік.
+let ownerExp = cars.forEach(value => {
+    if (value.owner.exp < 5 && value.owner.age > 25) {
+            value.owner.exp = value.owner.exp + 1;
+            console.log(value.owner.name + ' goes to experience improvement courses');
+    }
+})
+
+// Також спробуйте порахувати суму, яку потрібно потратити для покупки всіх цих авто в циклі
+
+let totalPrice = cars.reduce((value, index) => value + index.price, 0)
+
+console.log(totalPrice);
