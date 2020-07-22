@@ -101,19 +101,19 @@
 
 // Дан масив :
 
-// let users = [
-//     { name: 'vasya', age: 31, status: false },
-//     { name: 'petya', age: 30, status: true },
-//     { name: 'kolya', age: 29, status: true },
-//     { name: 'olya', age: 28, status: false },
-//     { name: 'max', age: 30, status: true },
-//     { name: 'anya', age: 31, status: false },
-//     { name: 'oleg', age: 28, status: false },
-//     { name: 'andrey', age: 29, status: true },
-//     { name: 'masha', age: 30, status: true },
-//     { name: 'olya', age: 31, status: false },
-//     { name: 'max', age: 31, status: true }
-// ];
+let users = [
+    { name: 'vasya', age: 31, status: false },
+    { name: 'petya', age: 30, status: true },
+    { name: 'kolya', age: 29, status: true },
+    { name: 'olya', age: 28, status: false },
+    { name: 'max', age: 30, status: true },
+    { name: 'anya', age: 31, status: false },
+    { name: 'oleg', age: 28, status: false },
+    { name: 'andrey', age: 29, status: true },
+    { name: 'masha', age: 30, status: true },
+    { name: 'olya', age: 31, status: false },
+    { name: 'max', age: 31, status: true }
+];
 
 // 19 - відсортувати його за  віком (зростання, а потім окремо спадання)
 
@@ -146,12 +146,16 @@
 //      та зберегти це в новий масив 
 //      (первинний масив залишиться без змін)
 
-// let idUsers = users.map((value, index) => { 
-//     value.id = index + 1
-//     return value
-// })
+let idUsers = users.map((value, index) => { 
+    const newUser = {...value}
 
-// console.log(idUsers);
+    newUser.id = index + 1
+    return newUser
+    
+})
+
+console.log(idUsers);
+console.log(users);
 
 
 
@@ -463,49 +467,49 @@
 
 // Створити не менше 7 та не більше 20 машинок.
 
-let cars = [
-    { model: 'Honda', power: 185, price: 14000, year: 2014, owner: {name: 'Roman', age: 31, exp: 14} },
-    { model: 'Toyota', power: 277, price: 25000, year: 2016, owner: {name: 'Oleg', age: 60, exp: 42} },
-    { model: 'Opel', power: 147, price: 7000, year: 2008, owner: {name: 'Nazar', age: 27, exp: 10} },
-    { model: 'BMW', power: 230, price: 33000, year: 2015, owner: {name: 'Kiril', age: 26, exp: 2} },
-    { model: 'Audi', power: 230, price: 18000, year: 2013, owner: {name: 'Igor', age: 45, exp: 27} },
-    { model: 'Lexus', power: 280, price: 17000, year: 2011, owner: {name: 'Viktor', age: 27, exp: 4} },
-    { model: 'Fiat', power: 160, price: 8000, year: 2015, owner: {name: 'Ostap', age: 30, exp: 12} },
-    { model: 'Volkswagen', power: 125, price: 6000, year: 2000, owner: {name: 'Lida', age: 35, exp: 3} },
-]
+// let cars = [
+//     { model: 'Honda', power: 185, price: 14000, year: 2014, owner: {name: 'Roman', age: 31, exp: 14} },
+//     { model: 'Toyota', power: 277, price: 25000, year: 2016, owner: {name: 'Oleg', age: 60, exp: 42} },
+//     { model: 'Opel', power: 147, price: 7000, year: 2008, owner: {name: 'Nazar', age: 27, exp: 10} },
+//     { model: 'BMW', power: 230, price: 33000, year: 2015, owner: {name: 'Kiril', age: 26, exp: 2} },
+//     { model: 'Audi', power: 230, price: 18000, year: 2013, owner: {name: 'Igor', age: 45, exp: 27} },
+//     { model: 'Lexus', power: 280, price: 17000, year: 2011, owner: {name: 'Viktor', age: 27, exp: 4} },
+//     { model: 'Fiat', power: 160, price: 8000, year: 2015, owner: {name: 'Ostap', age: 30, exp: 12} },
+//     { model: 'Volkswagen', power: 125, price: 6000, year: 2000, owner: {name: 'Lida', age: 35, exp: 3} },
+// ]
 
 // Зробили половину автопарку ремонт мотору, 
 // що збільшить потужність автомобілів на 10% (переприсвоєння змінної потужності).
 
 // На відремонтовані автомобілі найняти нових водіїв (переприсвоїти змінну водій).
-let newDriver = {name: 'Taras', age: 35, exp: 4}
+// let newDriver = {name: 'Taras', age: 35, exp: 4}
 
 // Для початку вкладіть всі наші створені автомобілі в масив cars.
 
 // Далі необхідно брати кожну другу машинку (цикл з кроком в 2), 
 // та робити їй підвищення потужності двигуна на 10% та ціну на 5%
-let repairedCars = cars.forEach((car, index) => {
-    if (index % 2) {
-        car.power = car.power * 1.1;
-        car.price = car.price * 1.05;
-        car.owner = newDriver;
-    }
-})
+// let repairedCars = cars.forEach((car, index) => {
+//     if (index % 2) {
+//         car.power = car.power * 1.1;
+//         car.price = car.price * 1.05;
+//         car.owner = newDriver;
+//     }
+// })
         
-console.log(cars);
+// console.log(cars);
 
 // Після того зробити перевірку досвіду ВСІХ наших водіїв. 
 // Якщо досвід водія менший за 5 років, але його вік більший за 25, 
 // о необідно відправити його на курси підвищення кваліфікації, що збільшить йому досвід на 1 рік.
-let ownerExp = cars.forEach(value => {
-    if (value.owner.exp < 5 && value.owner.age > 25) {
-            value.owner.exp = value.owner.exp + 1;
-            console.log(value.owner.name + ' goes to experience improvement courses');
-    }
-})
+// let ownerExp = cars.forEach(value => {
+//     if (value.owner.exp < 5 && value.owner.age > 25) {
+//             value.owner.exp = value.owner.exp + 1;
+//             console.log(value.owner.name + ' goes to experience improvement courses');
+//     }
+// })
 
 // Також спробуйте порахувати суму, яку потрібно потратити для покупки всіх цих авто в циклі
 
-let totalPrice = cars.reduce((value, index) => value + index.price, 0)
+// let totalPrice = cars.reduce((value, index) => value + index.price, 0)
 
-console.log(totalPrice);
+// console.log(totalPrice);
