@@ -147,10 +147,7 @@ let users = [
 //      (первинний масив залишиться без змін)
 
 let idUsers = users.map((value, index) => { 
-    const newUser = {...value}
-
-    newUser.id = index + 1
-    return newUser
+    return {...value, id: index + 1}
     
 })
 
